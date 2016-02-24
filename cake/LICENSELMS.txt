@@ -1,0 +1,6 @@
+Product-Name = LMS
+Registered-To = TRIAL USER
+Hardware-Locked = No
+Expires = 18-Dec-2010
+Produced-By = Zend Encoder trial
+Verification-Code = wHwjq6cN7FwrtSBRknqlWdCjyYFtAhQshYLoQjJJIebosdtNYgfu5qpV2Q==

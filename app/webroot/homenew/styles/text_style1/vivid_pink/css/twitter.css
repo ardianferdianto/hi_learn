@@ -1,0 +1,77 @@
+/** Style the tweets */
+#twitters {
+  padding: 0px;
+  margin:0 0 0 0;
+  
+}
+
+#twitters UL {
+  list-style: none;
+  padding: 0;
+  
+}
+
+#twitters LI {
+ 	 padding: 6px 6px 15px 6px;
+ 	 display:block;
+ 	 height:auto;
+  	background-color:inherit;
+	color:#868686;
+	margin:6px 0 6px 0;
+	
+
+}
+
+#twitters LI img{
+	width:auto;
+	float:left;
+	margin:0 10px 0 0;
+}
+
+#twitters SPAN.prefix {
+  font:bold 11px/16px Verdana, Arial, Helvetica, sans-serif;
+  color:#eb037c;
+  background-color:inherit;
+  padding:0 0 0 0;
+  margin:0;  
+}
+
+#twitters SPAN.prefix a{
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	font:bold 10px/20px Verdana, Arial, Helvetica, sans-serif;
+	color:#eb037c;
+	background-color:inherit;
+}
+#twitters SPAN.prefix a:hover{
+	color:#d43e92;
+	background-color:inherit;
+}
+
+#twitters SPAN.time a {
+  font:italic 9px/20px Verdana, Arial, Helvetica, sans-serif;
+  color: #626262;
+  background-color:inherit;
+  text-decoration:underline;
+}
+#twitters SPAN.time a:hover{
+	text-decoration:none;
+	color:#868686;
+	background-color:inherit;
+	
+}
+
+#twitters SPAN.status {
+  font:normal 10px/14px  verdana, Arial, Helvetica, sans-serif;
+  margin:3px 0 0 0;
+  padding:5px 0 0 0;
+}
+#twitters SPAN.status a{	
+  font:normal 12px/14px  verdana, Arial, Helvetica, sans-serif;
+  color:#2a6595;
+  background-color:inherit;
+}
+#twitters SPAN.status a:hover{
+	color:#626262;
+	background-color:inherit;
+}

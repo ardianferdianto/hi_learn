@@ -1,0 +1,1028 @@
+/* CSS Document */
+/*------------General----------------*/
+body{
+	background:url(../images/main_bg_repeat.jpg) repeat-x 0 0;
+	padding:0 0 0 0;
+	margin:0 auto;
+	width:100%;	
+	display:table;	
+	overflow:hidden;	
+}
+p, h1, h2, h3, h4, h5, h6, form, table, input{
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+}
+img{
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	display:block;
+	outline:none;
+	border:none;
+}
+a{
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	text-decoration:none;
+	outline:none;
+	border:none;
+}
+a:hover{
+	outline:none;
+	border:none;
+}
+ul{
+	padding:0 0;
+	margin:0 0;
+	list-style-type:none;
+}
+li{
+	padding:0 0;
+	margin:0 0;
+}
+.spacer{
+	clear:both;
+	font-size:0px;
+	line-height:0px;
+}
+
+/*------------General---------------*/
+/*------------Bg Glow Starts-----------*/
+div.glowbg{
+	background:url(../images/bg_glow.png) no-repeat 50% 0;
+	padding:160px 0 180px 0;
+	margin:0 0 0 0;
+	
+}
+/*-----------Bg Glow Ends--------------*/
+
+
+/*----------Main Container Starts------------*/
+#main_wrap{
+	width:586px;
+	margin:0 auto;
+	border:7px solid #122a3a;
+	padding:0 0;
+	position:relative;	
+	z-index:1;	
+}
+#content{
+	height:309px;
+	overflow:hidden;	
+	border:1px solid #33484f;
+	background:url(../images/content_bg_repeat.jpg) repeat-x 0 0 ;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	width:584px;	
+	z-index:1;
+}
+#content div.section{
+	padding:0 0 0 0;
+	margin:0 0 0 0;	
+	background-color:inherit;
+	color:#000;
+	height:395px;
+}
+
+/*--------Home Page Starts--------------*/
+#content div.section div.home_bg{
+	padding:17px 26px 78px 42px;
+	margin:0 0 0 0;
+	background:url(../images/homepage_bg.png) no-repeat 0 0;	
+}
+#content div.section div.home_bg img.download{
+	padding:0 0 0 470px;
+	margin:0 0 5px 0;
+	width:auto;	
+	display:block;
+}
+#content div.section div.home_bg a.download_btn{
+	font:normal 9px/11px Verdana, Arial, Helvetica, sans-serif;
+	color:#3e3e3d;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	float:right;
+	width:auto;
+}
+#content div.section div.home_bg a.download_btn:hover{
+	text-decoration:underline;
+	color:#f1f1f1;
+	background-color:inherit;
+}
+#content div.section div.home_bg div.middle{
+	width:516px;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	float:left;
+}
+#content div.section div.home_bg div.middle h1{
+	font:normal 47px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:inherit;
+	padding:18px 0 0 0;
+	margin:0 0 0 0;
+	width:370px;
+	float:left;
+}
+#content div.section div.home_bg div.middle h4{
+	font:normal 17px Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:inherit;
+	padding:8px 0 50px 0;
+	margin:0 0 0 0;
+	width:370px;
+	float:left;
+}
+#content div.section div.home_bg div.middle img.logo{
+	float:right;
+	width:70px;
+	padding:0 70px 0 0;
+	margin:10px 0 0 0;
+	height:76px;
+}
+#content div.section div.home_bg ul{
+	width:auto;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	clear:both;
+}
+#content div.section div.home_bg ul li{
+	float:left;
+	width:auto;
+	padding:0 50px 0 0;
+	margin:0 0 0 0;
+	font:italic 12px/22px Verdana, Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	background-color:inherit;
+	text-shadow:#cdcdcd 0px 1px 1px;	
+}
+#content div.section div.home_bg ul li.last{
+	padding-right:0;
+}
+#content div.section div.home_bg ul li a{
+	font:italic 12px/22px Verdana, Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	text-shadow:#303030 1px 1px 1px;
+}
+#content div.section div.home_bg ul li a:hover{
+	text-decoration:underline;
+}
+/*-----------Home Page Ends-------------------*/
+
+/*-----------About Us Page Starts-------------*/
+div.innerpage{
+	padding:26px 42px 0 42px;
+	margin:0 0 0 0;
+	z-index:2;
+}
+div.innerpage img{
+	float:right;
+	width:auto;
+	margin:0 0 0 22px;
+	padding:0 0 0 0;
+}
+div.innerpage h2{
+	font:normal 35px Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 0 0;	
+}
+div.innerpage h2.gap{
+	margin-bottom:17px;
+}
+div.innerpage p{
+	font:normal 11px/22px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#515151;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+}
+div.innerpage div.service{
+	float:left;
+	width:240px;
+	padding:0 0 0 0;
+	margin:20px 20px 0 0;
+}
+div.innerpage div.service img.sideser{
+	float:left;	
+	width:10px;
+	padding:0 0 0 0;
+	margin:8px 0 0 0;
+	height:69px;	
+}
+div.innerpage div.service ul.servicelink{
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	width:220px;	
+	float:right;
+	z-index:2000;
+}
+div.innerpage div.service ul.servicelink li{
+	background:url(../images/service_icon.png) no-repeat 80% 3px;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	font:italic 12px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#777777;
+	background-color:inherit;
+	text-shadow:#171717 0px 2px 1px;
+	position:relative;
+	width:auto;
+	display:block;
+}
+div.innerpage div.service ul.servicelink li a{
+	font:italic 12px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#777777;
+	background-color:inherit;
+	text-shadow:#171717 0px 2px 1px;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	z-index:4000;
+}
+div.innerpage div.service ul.servicelink li em{
+	background:url(../images/detail_bg.gif) no-repeat 0 0;
+	width:108px;
+	height:18px;
+	position:absolute;
+	top:-28px;
+	left:-8px;
+	text-align:center;
+	padding:6px 0 10px 0;
+	text-shadow:none;
+	z-index:3000;
+	display:none;
+	color:#616161;
+	background-color:inherit;
+	font:normal 9px/12px Verdana, Arial, Helvetica, sans-serif;
+}
+div.innerpage div.skills{
+	width:240px;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	float:right;
+}
+div.innerpage div.skills img.sideskill{
+	padding:0 0 0 0;
+	margin:16px 8px 0 0;
+	float:left;
+	width:10px;
+	height:68px;
+}
+div.innerpage div.skills ul{
+	padding:10px 0 0 0;
+	margin:0 0 0 0;
+	width:auto;	
+}
+div.innerpage div.skills ul li{
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	font:italic 12px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#777777;
+	background-color:inherit;
+	text-shadow:#171717 0px 2px 1px;
+}
+div.innerpage div.skills ul li.fivestar{
+	background:url(../images/fivestar.png) no-repeat 100% 6px;
+}
+div.innerpage div.skills ul li.fourstar{
+	background:url(../images/fourstar.png) no-repeat 95% 6px;
+}
+div.innerpage div.skills ul li.threestar{
+	background:url(../images/threestar.png) no-repeat 90% 6px;
+}
+div.innerpage div.skills ul li.twostar{
+	background:url(../images/twostar.png) no-repeat 86% 6px;
+}
+
+
+/*-----Popup Starts-----*/
+#filter{
+	display: none;
+	position: absolute;
+	top: 170px;
+	left: 100px;
+	width: 100%;
+	height: 100%;
+	background-color:inherit;
+	color:#000;
+	z-index:1000;
+	opacity:0.5;
+	filter: alpha(opacity=50);
+	padding:10px 0 0 0;
+}
+#box1, #box2, #box3, #box4 {
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 16%;
+	width:330px;
+	height: auto;
+	padding: 28px 28px 20px 28px;
+	margin:0;	
+	background-color: #181818;
+	color:#fff;
+	z-index:1000;
+	overflow:hidden;	
+	-moz-border-radius: 20px 5px 5px 5px; 
+	-webkit-border-top-right-radius: 20px; 
+	-webkit-border-bottom-right-radius: 5px; 
+	-webkit-border-bottom-left-radius: 5px; 
+	-webkit-border-top-left-radius: 5px; 
+	
+}
+#boxtitle, #boxtitle2, #boxtitle3, #boxtitle4{
+	position:absolute;
+	top:0;
+	left:0;
+	width:244px;
+	height:24px;
+	padding:8px 0 0 0;
+	margin:10px 0 0 30px;
+	background-color: #181818;
+	color:#b1b1b1;
+	z-index:1000;
+	text-shadow:#171717 1px 1px 1px;
+	text-align:left;
+	font:bold 15px/16px "Trebuchet MS" , Arial, Helvetica, sans-serif;
+	-moz-border-radius: 5px 5px 5px 5px; 
+	-webkit-border-top-right-radius: 5px; 
+	-webkit-border-bottom-right-radius: 5px; 
+	-webkit-border-bottom-left-radius: 5px; 
+	-webkit-border-top-left-radius: 5px; 
+}
+#box1 p, #box2 p, #box3 p, #box4 p{
+	font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+	color:#585858;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+}
+#box1 img.close, #box2 img.close, #box3 img.close, #box4 img.close {
+	width:11px;
+	height:12px;
+	display:block;
+	position:absolute;
+	left:343px;
+	top:10px;
+	cursor:pointer;
+}
+
+/*----------Popup Ends------------------*/
+
+/*-----------About Us Page Ends-------------*/
+
+/*----------My Showcase Page Starts---------*/
+div#slideshow{	
+	height:151px;
+	width:505px;
+	position:relative;	
+	background:url(../images/showcase_shadow.png) no-repeat 0 0;
+	padding:20px 0 0 0;
+	margin:0 0 0 0;
+}
+div#slideshow div.slider{
+	padding:0 0 0 0;	
+	margin:0 0 0 0;	
+	width:auto;
+	position:relative;
+	background-color:inherit;
+	color:#fff;
+}
+div#slideshow div.slider ul{
+	margin:0;
+	padding:0 0 0 0;
+	list-style:none;	
+	overflow:hidden;
+	height:65px;
+}
+div#slideshow div.slider li{ 
+	/*	define width and height of list item (slide)
+		entire slider area will adjust according to the parameters provided here*/
+		 
+	width:116px;
+	height:74px;
+	overflow:hidden; 
+	padding:0 12px 0 0;
+	margin:0 0 0 0;
+	float:left;
+	
+}
+div#slideshow div.slider li img{
+	padding:3px;
+	margin:0 0 0 0;
+	background-color:#222222;
+	color:#000000;
+}
+div#slideshow div.slider li img:hover{
+	padding:3px;
+	margin:0 0 0 0;
+	background-color:#444444;
+	color:#000000;
+}
+div#slideshow div.slider li.last{
+	padding-right:0;
+}
+#display{
+	padding:0 0 0 0;
+	width:auto;
+	margin:0 0 0 0;
+	position:absolute;
+	top:58px;
+	right:19px;
+}
+#display ul{
+	list-style:none;
+	margin:0 0 0 0;
+	padding:0;
+	float:left;
+	width:160px;
+	display:inline;	
+}
+#display ul li{
+	float:left;
+	margin:0 0 0 0;
+	padding:0 10px 0 10px;
+	cursor:pointer;
+	width:auto;
+	line-height:18px;
+	color:#878686;
+	background-color:inherit;
+	background:url(../images/display_divider.jpg) no-repeat 100% 8px;
+}
+#display ul li a.previous{
+	font:normal 10px/12px Verdana, Arial, Helvetica, sans-serif;
+	color:#afafaf;
+	background-color:inherit;
+	background:url(../images/previousarrow.png) no-repeat 0 2px;
+	padding:0 0 0 15px;
+	display:none;
+}
+#display ul li a.previous:hover{
+	color:#818181;
+	background-color:inherit;
+	background:url(../images/previousarrow_hover.png) no-repeat 0 2px;
+}
+#display ul li a.next{
+	font:normal 10px/12px Verdana, Arial, Helvetica, sans-serif;
+	color:#afafaf;
+	background-color:inherit;
+	background:url(../images/nextarrow.png) no-repeat 100% 2px;
+	padding:0 15px 0 0;
+	display:none;
+}
+#display ul li a.next:hover{
+	color:#818181;
+	background-color:inherit;
+	background:url(../images/nextarrow_hover.png) no-repeat 100% 2px;
+}
+#display ul li.last{
+	background:none;
+}
+#display ul li img{
+	padding:0;
+	margin:6px 0 0 0;
+}
+/*----------My Showcase Page Ends----------*/
+
+/*----------Social Network Page Starts------------*/
+ul.social{
+	padding:15px 0 0 0;
+	margin:0 0 0 0;
+	width:440px;
+}
+ul.social li{
+	background:url(../images/social_icon_bg.png) no-repeat 0 0;
+	width:195px;
+	height:45px;
+	padding:0 0 0 7px;
+	margin:0 30px 8px 0;
+	float:left;
+}
+ul.social li.last{
+	margin-right:0;
+}
+ul.social li a.socialbox{
+	font:normal 10px/12px Verdana, Arial, Helvetica, sans-serif;
+	color:#6d6d6d;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	cursor:pointer;
+	float:left;
+	width:195px;
+}
+ul.social li a.socialbox strong{
+	font:normal 15px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#ababab;
+	background-color:inherit;
+	width:100px;
+	float:left;
+	padding:0 0 0 0;
+	margin:4px 0 4px 0;
+	display:block;
+}
+ul.social li a.socialbox img{
+	float:left;
+	width:32px;
+	height:37px;
+	padding:0 0 0 0;
+	margin:6px 10px 0 0;
+}
+#live{
+	width:540px;
+	height:160px;
+	background:url(../images/feedbox_bg.jpg) repeat-x 0 0 #121212;
+	position:absolute;
+	color:#fff;
+	left:100px;
+	top:67px;
+	padding:2px 20px 10px 0;
+	font-size:11px;
+	margin:0 0 0 505px;
+	display:none;
+}
+#live div.twitters{
+	width:460px;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	float:right;
+	display:none;
+}
+#live div.livebtn{
+	background:url(../images/livefeed_bg.png) no-repeat 0 7px;
+	padding:52px 0 60px 13px;
+	margin:12px 20px 0 0;
+	width:60px;
+	float:left;
+	display:none;
+}
+#live div.livebtn p{	
+	font:normal 10px/20px Verdana, Arial, Helvetica, sans-serif;
+	color:#3f3f3f;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	cursor:pointer;
+	display:none;
+}
+/*----------Social Network Page Ends-------------*/
+
+
+/*---------Contact me Page Starts---------------*/
+div.contact_box{
+	padding:13px 0 0 0;
+	margin:0 0 0 0;
+}
+div.contact_box div.address{
+	width:227px;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	float:left;
+	background:url(../images/address_border.png) no-repeat 100% 0;
+}
+div.contact_box div.address p.name{
+	font:bold 15px/20px Verdana, Arial, Helvetica, sans-serif;
+	color:#747474;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+}
+div.contact_box div.address p.add{
+	font:normal 11px/20px Verdana, Arial, Helvetica, sans-serif;
+	color:#535353;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 9px 0;
+}
+div.contact_box div.address p{
+	font:normal 11px/17px Verdana, Arial, Helvetica, sans-serif;
+	color:#535353;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+}
+div.contact_box div.address div.title p{
+	font:normal 9px/17px Verdana, Arial, Helvetica, sans-serif;
+	color:#535353;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+}
+
+div.contact_box div.address p a{
+	color:#1d73bc;
+	background-color:inherit;
+}
+div.contact_box div.address p a:hover{
+	text-decoration:underline;
+}
+div.contact_box div.address p a.locatebox{
+	color:#535353;
+	background-color:inherit;
+	
+}
+div.contact_box div.address p a.locatebox:hover{
+	text-decoration:none;
+}
+
+div.contact_box div.contactform{
+	width:270px;
+	float:right;
+	padding:4px 0 0 0;
+	margin:0 0 0 0;
+}
+div.contact_box div.contactform div.form{
+	padding:0 0 0 35px;
+	margin:0;
+	width:235px;
+	}
+div.contact_box div.contactform div.form label{
+	display:block;
+	overflow:hidden;
+	height:100%;
+	padding:0;
+	margin:0 0 6px 0;
+}
+
+div.contact_box div.contactform div.form label.last div{
+	float:right;
+	width:60px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+div.contact_box div.contactform div.form label img{
+	padding:0;
+	margin:5px 0 0 0;
+}
+div.contact_box div.contactform div.form label span{
+	width:73px;
+	float:left;
+	text-align:left;
+	padding:0 0;
+	font:normal 13px Verdana, Arial, Helvetica, sans-serif;      
+	color:#535353;
+	background-color:inherit; 
+	line-height:25px;
+}
+
+div.contact_box div.contactform div.form label input{
+	width:156px;
+	float:right;
+	font:normal 11px/20px Verdana, Arial, Helvetica, sans-serif;
+	color:#535353;
+	background-color:#fff;
+	padding:4px 0 0 6px;	
+	height:18px;	
+	border:none;
+	outline:none;
+	display:block;
+}
+div.contact_box div.contactform div.form textarea{
+	width:156px;
+	float:right;
+	font:normal 11px/20px Verdana, Arial, Helvetica, sans-serif;
+	color:#535353;
+	background-color:#fff;
+	padding:4px 0 0 6px;	
+	height:58px;
+	border:none;
+	outline:none;
+	display:block;		
+}
+div.contact_box div.contactform div.form input.submission{
+	background:url(../images/send_btn_hover.jpg) no-repeat 0 0;
+	width:162px;
+	height:20px;	
+	border:none;
+	outline:none;
+	text-indent:-20000px;
+	cursor:pointer;		
+	margin:5px 0 0 0;	
+}
+div.contact_box div.contactform div.form input.submission:hover{
+	background:url(../images/send_btn.jpg) no-repeat 0 0;
+	width:162px;
+	height:20px;
+	outline:none;	
+	border:none;
+	text-indent:-20000px;
+	cursor:pointer;		
+	margin:5px 0 0 0;	
+}
+div.contact_box div.contactform div.form input:focus{
+	background:#f8f8f8;
+	color:#7d7c7c;
+}
+div.contact_box div.contactform div.form textarea:focus{
+	background:#f8f8f8;
+	color:#7d7c7c;
+}
+
+/*---------Contact me Page Ends-----------------*/
+
+
+
+
+
+
+/*--------------Main Navigation Starts-----------*/
+div.menu{
+	padding:10px 0 20px 55px;
+	margin:0 0 0 0;
+	position:absolute;
+	left:-9px;
+	top:262px;
+	background:url(../images/nav_bg.png) no-repeat 0 0;
+	width:551px;
+	z-index:10;
+}
+#nav{
+	padding:0 0;
+	margin:0 0;
+	list-style:none;
+}
+#nav li{
+	float:left;
+	width:auto;
+	padding:0 50px 0 0;
+	margin:0 0 0 0;
+}
+#nav li.last{
+	padding-right:0;
+}
+#nav li a{
+	font:normal 11px/22px Verdana, Arial, Helvetica, sans-serif;
+	color:#0a0e11;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	text-shadow:#7bcde9 0px 1px 1px;
+}
+#nav li a:hover{
+	color:#0b0f11;
+	background-color:inherit;
+	text-shadow:#9be5fe 0px 1px 1px;
+}
+#nav li a.activeSlide{
+	background:url(../images/anchor_hover.png) no-repeat center 0;
+	padding:18px 0 18px 0;
+	margin:0 0 0 0;
+	width:11px;
+	height:7px;	
+}
+/*--------------Main Navigation Ends-----------*/
+/*----------Main Container Ends--------------*/
+
+/*---------Footer Portion Starts------------*/
+div.footer{
+	width:669px;
+	margin:-1px auto 0 auto;
+	padding:2px 0 40px 0;
+	background:url(../images/footer_bg.png) no-repeat 0 0;
+}
+div.footer p{
+	font:normal 10px/22px Verdana, Arial, Helvetica, sans-serif;
+	color:#080808;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	text-align:center;
+}
+div.footer p a{
+	font:normal 10px/22px Verdana, Arial, Helvetica, sans-serif;
+	color:#2c2c2c;
+	background-color:inherit;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	text-align:center;
+}
+
+div.footer p a:hover{
+	text-decoration:underline;
+}
+/*---------Footer Portion Ends------------*/
+
+
+/*---------Background Bubble Animation starts------------------*/
+/*-- webkit animation --*/
+.bubble {
+	background:rgba(81,81,81, 0.2);
+	position:absolute;
+	-webkit-border-radius:50px;
+	-webkit-animation-name: flight;
+	-webkit-animation-duration: 12s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes flight {
+	0%{
+		width:20px;
+		height:20px;
+		margin-left:800px;
+		margin-top:400px;
+		background:rgba(81,81,81, 0);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,0);
+	}
+	50% {
+		width:60px;
+		height:60px;
+		background:rgba(81,81,81, 0.2);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,.05);
+		margin-left:500px;
+		margin-top:200px;
+	}
+	100% {
+		width:100px;
+		height:100px;
+		margin-left:300px;
+		margin-top:0px;
+		background:rgba(81,81,81, 0);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,0);
+	}
+}
+.bubble2 {
+	background:rgba(81,81,81, 0.2);
+	position:absolute;
+	-webkit-border-radius:50px;
+	-webkit-animation-name: leftflight;
+	-webkit-animation-duration: 12s;
+	-webkit-animation-delay: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes leftflight {
+	0%{
+		width:20px;
+		height:20px;
+		margin-left:800px;
+		margin-top:500px;
+		background:rgba(81,81,81, 0);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,0);
+	}
+	50% {
+		width:60px;
+		height:60px;
+		background:rgba(81,81,81, 0.2);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,.05);
+		margin-left:1000px;
+		margin-top:120px;
+	}
+	100% {
+		width:100px;
+		height:100px;
+		margin-left:1200px;
+		margin-top:0px;
+		background:rgba(81,81,81, 0);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,0);
+	}
+}
+.bubble3 {
+	background:rgba(81,81,81, 0.2);
+	position:absolute;
+	-webkit-border-radius:50px;
+	-webkit-animation-name: centerflight;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes centerflight {
+	0%{
+		width:20px;
+		height:20px;
+		margin-left:700px;
+		margin-top:400px;
+		background:rgba(81,81,81, 0);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,0);
+	}
+	50% {
+		width:60px;
+		height:60px;
+		background:rgba(81,81,81, 0.2);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,.05);
+		margin-left:700px;
+		margin-top:40px;
+	}
+	100% {
+		width:100px;
+		height:100px;
+		margin-left:700px;
+		margin-top:-200px;
+		background:rgba(81,81,81, 0);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,0);
+	}
+}
+.bubble4 {
+	background:rgba(81,81,81, 0.2);
+	position:absolute;
+	-webkit-border-radius:80px;
+	-webkit-animation-name: centerleftflight;
+	-webkit-animation-duration: 15s;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes centerleftflight {
+	0%{
+		width:20px;
+		height:20px;
+		margin-left:600px;
+		margin-top:500px;
+		background:rgba(81,81,81, 0);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,0);
+	}
+	50% {
+		width:70px;
+		height:60px;
+		background:rgba(81,81,81, 0.2);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,.05);
+		margin-left:500px;
+		margin-top:80px;
+	}
+	100% {
+		width:160px;
+		height:160px;
+		margin-left:140px;
+		margin-top:-500px;
+		background:rgba(81,81,81, 0);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,0);
+	}
+}
+.bubble5 {
+	background:rgba(81,81,81, 0.2);
+	position:absolute;
+	-webkit-border-radius:50px;
+	-webkit-animation-name: centerrightflight;
+	-webkit-animation-duration: 15s;
+	-webkit-animation-delay: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes centerrightflight {
+	0%{
+		width:20px;
+		height:20px;
+		margin-left:700px;
+		margin-top:600px;
+		background:rgba(81,81,81, 0);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,0);
+	}
+	50% {
+		width:60px;
+		height:60px;
+		background:rgba(81,81,81, 0.2);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,.05);
+		margin-left:900px;
+		margin-top:300px;
+	}
+	100% {
+		width:100px;
+		height:100px;
+		margin-left:1300px;
+		margin-top:-400px;
+		background:rgba(81,81,81, 0);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,0);
+	}
+}
+.bubble6 {
+	background:rgba(81,81,81, 0.2);
+	position:absolute;
+	-webkit-border-radius:50px;
+	-webkit-animation-name: centercenterflight;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-delay: 9s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes centercenterflight {
+	0%{
+		width:10px;
+		height:10px;
+		margin-left:700px;
+		margin-top:500px;
+		background:rgba(81,81,81, 0);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,0);
+	}
+	50% {
+		width:60px;
+		height:60px;
+		background:rgba(81,81,81, 0.2);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,.05);
+		margin-left:500px;
+		margin-top:100px;
+	}
+	100% {
+		width:100px;
+		height:100px;
+		margin-left:450px;
+		margin-top:-700px;
+		background:rgba(81,81,81, 0);
+		-webkit-box-shadow:0 0 2px rgba(0,0,0,0);
+	}
+}
+
+/*---------Background Bubble Animation Ends------------------*/
+
